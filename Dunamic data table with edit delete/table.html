@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dynamic table Test V1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--BootStrap Import Start-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!--BootStrap Import end-->
+
+</head>
+<body>
+   
+
+    <!--Table Start-->
+    <!-- <button id="bta" name="bta" type="button" class="btn btn-primary">Add</button> -->
+    
+ 
+
+    <div class="container">
+        <br>
+        <!--Add Button form start-->
+
+        <div class="row">
+           
+            <div class="col-sm-4"> 
+            
+                
+            
+            </div>
+
+            
+            <div class="col-sm-4">
+
+                <form   action="#" method="post" >
+
+                    <ul class="finp">
+     
+                     <li class="finp">
+                    
+                             <label for="fn">First Name: <span  id="fnr" class="spn"> *Required</span> </label>
+      
+                     </li>
+     
+                     <li class="finp">
+                         <input  name="fn" type="text" class="form-control" id="Fname" > 
+                     </li>
+     
+                     <li class="finp">
+                    
+                         <label for="ln">Last Name: <span  id="lnr" class="spn"> *Required</span> </label>
+     
+                 </li>
+     
+                 <li class="finp">
+                     <input name="ln" type="text" class="form-control" id="Lname"  >
+                 </li>
+     
+                 <li class="finp">
+                    
+                     <label for="ag">Age: <span  id="ar" class="spn"> *Required</span> </label>
+     
+             </li>
+     
+             <li class="finp">
+                 <input name="ag" type="number" class="form-control" id="age"  >
+             </li>
+<br>
+              <li class="finp">
+                <button id="bta" name="bta" type="button" class="btn btn-primary"> <span class="material-icons">
+                    add
+                    </span></button>
+
+                    <button id="btu" name="btu" type="button" class="btn btn-primary"> <span class="material-icons">
+                        upgrade
+                        </span></button>
+             </li>
+     
+             
+
+                    </ul>
+     
+                 </form> 
+
+            </div>
+
+
+            <div class="col-sm">
+    
+                
+    
+            </div>
+            
+        </div>
+
+             <!--Add button end-->
+    <br>
+   
+        <div class="row">
+         
+        
+
+            <div class="col-sm">
+
+ 
+                <table class="table" >
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+
+                    <tbody id="mtb">
+                      
+                    </tbody>
+
+                  </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+ 
+
+<!--Table End-->
+
+</body>
+
+<script src='main.js'></script>
+
+</html>

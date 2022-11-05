@@ -1,0 +1,22 @@
+@import url("lib.css");
+
+.finp{
+   padding: 4;
+    float:center;
+    
+    list-style: none;
+ 
+}
+
+.spn{
+    color: red;
+}
+
+.btcs{
+    background-color: none;
+ 
+}
+
+button:hover{
+    color:aquamarine;
+}
